@@ -2,6 +2,14 @@
         padding: 0%;
         margin: 0%;
     }
+    
+    .background{
+        display: none;
+    }
+
+    .newdiv{
+        display: none;
+    }
 
 
 
@@ -14,7 +22,7 @@
     }
 
     .nav {
-        background-color: #800508;
+        background-color: #006e72;
         width: 100%;
         height: 70px;
         margin: auto;
@@ -78,6 +86,7 @@
         text-align: center;
         font-size: 14pt;
         font-family: "Montserrat", sans-serif;
+        margin-top: 30px;
       
     }
 
@@ -141,7 +150,7 @@
     font-size: 28px;
     padding-top: 25px;
     margin-bottom: 0%;
-    color: #9b080a;
+    color: #006e72;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
 }
@@ -149,10 +158,11 @@
 
 .hitheretext2{
     font-size: 18px;
-    margin-top: 18px;
+    margin-top: 10px;
     color: rgb(24, 24, 24);
     font-family: "Montserrat", sans-serif;
     line-height: 23px;
+    margin-bottom: 10px;
 }
 
 .giftbox{
@@ -165,10 +175,11 @@
         font-size: 13.5pt;
         font-family: "Montserrat", sans-serif;
         margin-top: -6px;
-        color: #9b080a;
+        color: #006e72;
         font-weight: 600;
         animation: blinker 2s linear infinite;
         text-decoration: none;
+        
     }
 
     @keyframes blinker {
@@ -221,11 +232,26 @@ footer{
     .root {
         margin: 0%;
         padding: 0%;
-        background-color: #800508;
         width: 100%;
-        height:800px
-;
+        height:800px;
+   
     }
+
+    .background{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: -65px;
+        display: inline;
+    }
+    .navtext {
+        display: none;
+    }
+    .navtexttwo {
+        display: none;
+    }
+   
 
 
     .nav {
@@ -236,6 +262,8 @@ footer{
         border-radius: 0px 0px 60px 60px;
         margin-bottom: 0%;
         padding-bottom: 0%;
+        position: fixed;
+        top: 0%;
     }
 
     .logonav{
@@ -251,12 +279,7 @@ footer{
       display: none;
     }
 
-    .flyer{
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 0px;
-    }
+    
     
     .hithere{
         display: none;
@@ -266,22 +289,25 @@ footer{
         display: list-item;
         width: 100%;
         height: auto;
+        position: fixed;
+        top: 100px;
+        
     }
 
     .welcome{
-        color: #cd0911;
+        color: #006e72;
         text-align: center;
-        font-size: 12.5pt;
+        font-size: 13.5pt;
         font-family: "Montserrat", sans-serif;
-        margin-top: 45px;
+        margin-top: 55px;
     }
 
     .callnowtext{
             text-align: center;
-            font-size: 10pt;
+            font-size: 84%;
             font-family: "Montserrat", sans-serif;
             margin-top: -6px;
-            color: #9b080a;
+            color: #006e72;
             font-weight: 600;
             animation: blinker 2s linear infinite;
             text-decoration: none;
@@ -312,13 +338,13 @@ footer{
     .secondnav{
         background-color: rgb(255, 255, 255);
         width: 100%;
-        height: 650px;
+        height: 700px;
         border-radius: 60px 60px 0px 0px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         display: list-item;
-        margin-top: 10px;
         position: absolute;
         text-align: center;
+        
     }
 
     .joinus{
